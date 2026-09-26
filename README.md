@@ -42,11 +42,13 @@ You have 5 attempts to guess the number.
 
 ## Project Structure
 
+```text
 guess-the-number/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
 
 ## Purpose
 
