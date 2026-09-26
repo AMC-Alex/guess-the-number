@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#getNumber {
+  width: 250px;
+  padding: 12px;
+
+  border: 2px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+}
+
+#getNumber:focus {
+  border-color: #555;
+}
+
+.div-button {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+
+  border: none;
+  border-radius: 6px;
+
+  font-size: 15px;
+  cursor: pointer;
+
+  background-color: #222;
+  color: white;
+
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+#btnReset {
+  background-color: #777;
+}
+
+.msg-div {
+  width: 300px;
+  min-height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+
+  background-color: white;
+  border-radius: 8px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+}
+
+.msg-p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.div-try {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px 20px;
+
+  background-color: white;
+  border-radius: 8px;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.div-try h4 {
+  font-size: 15px;
+}
+
+.tries {
+  font-weight: bold;
+}
